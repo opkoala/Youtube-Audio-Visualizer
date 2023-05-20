@@ -21,20 +21,27 @@ input[type=radio] {
 label {
     display: inline-block;
     margin: 20px;
+    margin-top: 15px;
 }
 
 .topnav {
     text-align: left;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     background-color: black;
 }
 
 .navigation{
     padding: 5px;
     color: white;
+    text-decoration: none;
 }
 
-p{
+.Selection{
     margin-bottom: 5px;
+}
+
+.text{
+    padding-left: 50px;
+    padding-right: 50px;
 }
