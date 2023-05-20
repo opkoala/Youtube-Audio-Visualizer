@@ -1,11 +1,12 @@
-html {
+h1 {
     text-align: center;
 }
 
-input[type=radio] {
-    display: block;
-    margin: 0 auto;
+p{
+    text-align: center;
 }
-label {
-    display: inline-block;
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
 }
