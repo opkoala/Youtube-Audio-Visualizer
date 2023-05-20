@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Audio Visualization</title>
-</head>
+<link rel = "stylesheet" href = "stylesheet.css">
+<title>YouTube Music Audio Visualizer</title>
+<header>YouTube Music Audio Visualizer</header>
 <body>
-    <h1>Audio Visualization</h1>
-    <div id="plot-container">
-        <!-- Add the Matplotlib plot image here -->
-        <img src="{{ plot_file }}" alt="Audio Visualization">
-    </div>
-    <p>{{ message }}</p>
+    <p>Select Search Type:</p>
+    <input type = 'radio' name = 'Link' value = 'YT_Link'> YouTube Link
+    <input type = 'radio' name = 'Search Query' value = 'Search'> Search Query
+    <br><br>
+    <input type = 'text' id = 'query input'></label><br><br>
+    <input type = 'submit' id = 'submit'>
 </body>
 </html>
