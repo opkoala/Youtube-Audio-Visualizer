@@ -9,4 +9,32 @@ p{
 body{
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
+    margin: 0px;
+}
+
+input[type=radio] {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    margin: 20px;
+}
+
+.topnav {
+    text-align: left;
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+}
+
+.navigation{
+    padding: 5px;
+    color: white;
+}
+
+p{
+    margin-bottom: 5px;
 }
